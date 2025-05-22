@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://elevate9.io/wp-content/uploads/2025/05/Montserrat-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://elevate9.io/wp-content/uploads/2025/05/Montserrat-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+/* Fonts */
+.emailMarketing-sec1-h1,
+.emailMarketing-sec2-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.emailMarketing-sec1-h3,
+.emailMarketing-sec2-h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.emailMarketing-sec1-h4,
+.emailMarketing-sec2-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.emailMarketing-sec1-p,
+.emailMarketing-sec2-p,
+.emailMarketing-sec2-p-hdr {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/*SIDEBAR*/
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80px;
+  z-index: 1000;
+}
+.sidebar-wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.sidebar-wrapper a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  background-color: white;
+  text-align: center;
+  height: 41px;
+  width: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: 800;
+  transition: all 0.3s ease;
+}
+.sidebar-wrapper a:active {
+  transform: scale(0.7);
+}
+.sidebar-wrapper a.active {
+  background: rgba(183, 134, 11, 1);
+  color: white;
+  transform: scale(1.3);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 1);
+  animation: pulse 1.5s infinite;
+}
+/*Section1*/
+.emailMarketing-sec1-wrap, .emailMarketing-sec2-wrap {
+  width: 100%;
+  height: 1000px;
+}
+.emailMarketing-sec1-ban, .emailMarketing-sec2-ban {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  place-content: center;
+}
+.emailMarketing-sec1-ban {
+  background-image: url(https://elevate9.io/wp-content/uploads/2025/05/glass_elevator_bw.jpg);
+}
+.emailMarketing-sec1-ban::before, .emailMarketing-sec2-ban::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.emailMarketing-sec1-cont, .emailMarketing-sec2-cont {
+  position: relative;
+  margin-right: 233px;
+  margin-left: 233px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  animation: slideIn 0.5s ease-in-out;
+}
+.emailMarketing-sec1-hdr {
+  margin-top: 107px;
+  margin-bottom: 352px;
+  width: 100%;
+}
+.emailMarketing-sec1-p {
+  text-align: justify;
+  width: 900px;
+}
+.emailMarketing-sec1-h4, .emailMarketing-sec1-h1, .emailMarketing-sec1-p, .emailMarketing-sec2-h4, .emailMarketing-sec2-h1, .emailMarketing-sec2-p {
+  color: white;
+}
+/*Section2*/
+.emailMarketing-sec2-ban {
+  background-image: url(https://elevate9.io/wp-content/uploads/2025/05/glass_elevators_atrium_bw.jpg);
+}
+.emailMarketing-sec2-hdr {
+  margin-top: 107px;
+  margin-bottom: 283px;
+  width: 100%;
+}
+.emailMarketing-sec2-p {
+  text-align: justify;
+  width: 900px;
+  margin-bottom: 216px;
+}
+.emailMarketing-sec2-btn {
+  padding: 29px 97px;
+  border-radius: 30px;
+  color: black;
+  background-color: white;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.emailMarketing-sec2-btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 1px solid white;
+  transform: scale(1.05);
+}
+.emailMarketing-sec2-btn:active {
+  transform: scale(1);
+}

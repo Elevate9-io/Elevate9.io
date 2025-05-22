@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://elevate9.io/wp-content/uploads/2025/05/Montserrat-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://elevate9.io/wp-content/uploads/2025/05/Montserrat-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+.branding-sec1-h1,
+.branding-sec2-h1, .branding-sec3-h1, .branding-sec4-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.branding-sec1-h3,
+.branding-sec2-h3, .branding-sec3-h3, .branding-sec4-h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400 !important;
+}
+
+.branding-sec1-h4,
+.branding-sec2-h4, .branding-sec3-h4, .branding-sec4-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.branding-sec1-p,
+.branding-sec2-p,
+.branding-sec2-p-hdr, .branding-sec3-p, .branding-sec3-p2, .branding-sec4-p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+/*SIDEBAR*/
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80px;
+  z-index: 1000;
+}
+.sidebar-wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.sidebar-wrapper a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  background-color: white;
+  text-align: center;
+  height: 41px;
+  width: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: 800;
+  transition: all 0.3s ease;
+}
+.sidebar-wrapper a:active {
+  transform: scale(0.7);
+}
+.sidebar-wrapper a.active {
+  background: rgba(183, 134, 11, 1);
+  color: white;
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 1);;
+  animation: pulse 1.5s infinite;
+  transform: scale(1.3);
+}
+/*Section1*/
+.branding-sec1-wrap, .branding-sec2-wrap, .branding-sec3-wrap, .branding-sec4-wrap {
+  width: 100%;
+  height: 1000px;
+}
+.branding-sec1-ban, .branding-sec2-ban, .branding-sec3-ban, .branding-sec4-ban {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  place-content: center;
+}
+.branding-sec1-ban {
+  background-image: url(https://elevate9.io/wp-content/uploads/2025/05/branding1.jpg);
+}
+.branding-sec1-ban::before, .branding-sec2-ban::before, .branding-sec3-ban::before, .branding-sec4-ban::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* Adjust opacity as needed */
+}
+.branding-sec1-cont, .branding-sec2-cont, .branding-sec3-cont, .branding-sec4-cont {
+  position: relative;
+  margin-right: 233px;
+  margin-left: 233px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  animation: slideIn 0.5s ease-in-out;
+}
+.branding-sec1-hdr {
+  margin-top: 104px;
+  margin-bottom: 173px;
+  width: 100%;
+}
+.branding-sec1-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 82px;
+}
+.branding-sec1-flexItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 54px;
+}
+.branding-sec1-h4 {
+  text-align: right;
+  width: 400px;
+}
+.branding-sec1-p {
+  text-align: justify;
+  width: 900px;
+}
+
+.branding-sec1-h3, .branding-sec1-h1, .branding-sec1-h4, .branding-sec1-p {
+  color: white;
+}
+/*section2*/
+.branding-sec2-ban {
+  background-image: url(https://elevate9.io/wp-content/uploads/2025/05/branding2.jpg);
+}
+.branding-sec2-hdr {
+  margin-top: 104px;
+  width: 100%;
+  margin-bottom: 191px;
+}
+.branding-sec2-h1 {
+  margin-bottom: 94px;
+}
+.branding-sec2-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 82px;
+}
+.branding-sec2-flexItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+}
+.branding-sec2-h4 {
+  width: 400px;
+  text-align: right;
+  
+}
+.branding-sec2-p {
+  width: 531px;
+  text-align: justify;
+}
+
+.branding-sec2-h3, .branding-sec2-h1, .branding-sec2-h4, .branding-sec2-h4-hdr, .branding-sec2-p, .branding-sec2-p-hdr {
+  color: white;
+}
+/*section3*/
+.branding-sec3-ban {
+  background-image: url(https://elevate9.io/wp-content/uploads/2025/05/branding3.jpg);
+}
+.branding-sec3-hdr {
+  width: 100%;
+  margin-top: 104px;
+  margin-bottom: 303px;
+}
+.branding-sec3-flex {
+  width: 50%;
+}
+.branding-sec3-p {
+  margin-bottom: 59px;
+}
+.branding-sec3-h3, .branding-sec3-h1, .branding-sec3-h4, .branding-sec3-p, .branding-sec3-p2 {
+  color: white;
+}
+/*Section4*/
+.branding-sec4-ban {
+  background-image: url(https://elevate9.io/wp-content/uploads/2025/05/branding1.jpg);
+}
+.branding-sec4-hdr {
+  margin-top: 104px;
+  margin-bottom: 209px;
+  width: 100%;
+}
+.branding-sec4-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 82px;
+  margin-bottom: 103px;
+}
+.branding-sec4-flexItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 54px;
+}
+.branding-sec4-h4 {
+  text-align: right;
+  width: 600px;
+}
+.branding-sec4-p {
+  text-align: justify;
+  width: 703px;
+}
+.branding-sec4-h3, .branding-sec4-h1, .branding-sec4-h4, .branding-sec4-p {
+  color: white;
+}
+.branding-sec4-btn-cont {
+  display: flex;
+  place-content: center;
+  width: 100%;
+}
+.branding-sec4-btn {
+  padding: 29px 97px;
+  border-radius: 30px;
+  color: black;
+  background-color: white;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.branding-sec4-btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 1px solid white;
+  transform: scale(1.05);
+}
+.branding-sec4-btn:active {
+  transform: scale(1);
+}

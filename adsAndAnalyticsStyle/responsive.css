@@ -1,0 +1,66 @@
+/* ========== RESPONSIVE ADJUSTMENTS ========== */
+
+@media (max-width: 1600px) {
+
+}
+
+@media (max-width: 1300px) {
+.adsAnalytics-sec1-cont, .adsAnalytics-sec2-cont {
+  margin-right: 180px;
+  margin-left: 180px;
+}
+.adsAnalytics-sec1-p, .adsAnalytics-sec2-p {
+  width: 100%;
+}
+.sidebar {
+    width: 50px;
+  }
+  .sidebar-wrapper a {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+.adsAnalytics-sec1-cont, .adsAnalytics-sec2-cont {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.adsAnalytics-sec1-wrap, .adsAnalytics-sec2-wrap {
+  width: 100%;
+  height: 700px;
+}
+.adsAnalytics-sec1-hdr, .adsAnalytics-sec2-hdr, .adsAnalytics-sec2-p {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 600px) {
+.adsAnalytics-sec1-cont, .adsAnalytics-sec2-cont {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.sidebar {
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Horizontal bar */
+  }
+  .sidebar-wrapper {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 480px) {
+  .adsAnalytics-sec2-btn {
+    padding: 29px 50px;
+  }
+  .sidebar-wrapper {
+    gap: 5px;
+  }
+}

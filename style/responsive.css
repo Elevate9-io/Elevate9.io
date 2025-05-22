@@ -1,0 +1,170 @@
+/* Your existing desktop CSS stays exactly as is */
+
+/* ========== RESPONSIVE ADJUSTMENTS ========== */
+
+/* Large tablets and small laptops (1024px down to 768px) */
+
+@media (max-width: 1600px) {
+  .section1-h1, .section1-p, .section1-h3, .section3-h1, .section4-p, .section5-p {
+    margin-bottom: 50px;
+  }
+  .section1-content, .section2-content, .section3-content, .section4-content, .section6-content {
+    margin-right: 180px;
+    margin-left: 180px;
+  }
+  .section2-text {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section2-flex-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section2-h1 {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .section2-p {
+    width: 550px;
+  }
+  .section2-h3 {
+    margin-top: 50px;
+  }
+  .section3-flex-top {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .section3-flex-bottom {
+    gap: 10px;
+  }
+  .section3-flex-item {
+    width: 390px;
+    height: 370px;
+  }
+  .section6-p {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1300px) {
+  .sidebar {
+    width: 50px;
+  }
+  .sidebar-wrapper a {
+    height: 30px;
+    width: 30px;
+  }
+  .section1-content, .section2-content, .section3-content, .section4-content, .section5-content, .section6-content, .section7-content {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .section3-flex-top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .section3-flex-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section3-flex-item {
+    width: 100%;
+    height: 170px;
+  }
+  .text-cont {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section3-flex-btn {
+    width: 150px;
+  }
+  .section3-flex-h2 {
+    color: white;
+    margin-bottom: 0px;
+  }
+  .flex-container {
+    display: flex;
+  }
+  .section3-h1 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .section1-content, .section2-content, .section3-content, .section4-content, .section5-content, .section6-content, .section7-content {
+    margin-right: 40px;
+    margin-left: 70px;
+  }
+  .section2-flex-item {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section2-h1 {
+    width: 100%;
+  }
+  .section2-p {
+    width: 100%;
+  }
+  .section4-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .section4-flex-item {
+    width: 45%;
+    height: 300px;
+  }
+  .section4-p {
+    margin-bottom: 10px;
+  }
+  .section3-flex-btn {
+    width: 120px;
+  }
+}
+
+/* Tablets (768px down to 600px) */
+@media (max-width: 768px) {
+  
+}
+
+/* Large phones (600px down to 480px) */
+@media (max-width: 600px) {
+  .section1-content, .section2-content, .section3-content, .section4-content, .section5-content, .section6-content, .section7-content {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .sidebar {
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Horizontal bar */
+  }
+  .sidebar-wrapper {
+    flex-direction: row;
+  }
+  .section3-icon {
+    margin-right: 5px;
+  }
+  .section3-flex-btn {
+    width: 80px;
+  }
+}
+/* Standard phones (480px and below) */
+@media (max-width: 480px) {
+  .section1-content, .section2-content, .section3-content, .section4-content, .section5-content, .section6-content, .section7-content {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sidebar-wrapper {
+    gap: 5px;
+  }
+  .section3-flex-btn {
+    width: 50px;
+  }
+}
